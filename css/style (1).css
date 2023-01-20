@@ -1,0 +1,349 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.message{
+    width: 50px;
+    height: 50px;
+   background-color: #22577E;
+   border: 1px solid #fff;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 50px;
+   right: 30px;
+   text-align: center;
+  
+}
+
+#menu .fa{
+    color: #fff ;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+}
+.message i{
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+@media (max-width:768px){
+    .header .content{
+        width: 80%;
+    }
+    #close1{
+        display: block !important;
+    }
+    #menu .fa{
+        color: #fff ;
+        font-size: 24px;
+        display: block;
+    }
+    .topbar{
+        padding: 4% 2% !important;
+    }
+    .topbar .container .row .col{
+        flex-basis: 48%;
+    }
+   
+.header nav ul{
+   
+    position: fixed;
+    right: 0;
+   transition:ease .5s;
+    
+    top: 0;
+    background-color: #006778;
+    width: 260px !important;
+    height: 100% !important;
+    padding: 40px 20px;
+}
+.header nav ul li{
+    display: block !important;
+    margin-bottom: 30px !important;
+}
+}
+
+.topbar{
+    padding: 1% 8%;
+    background-color: #05595B;
+}
+.topbar .container{
+    width: 90%;
+    margin: auto;
+}
+.topbar .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar .container .row .col{
+    flex-basis: 50%;
+}
+.topbar .container .row .col p{
+    color: #fff;
+}
+.topbar .container .row   .text-align{
+    text-align: right !important;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../img/image-1.jpg');
+    background-position: center;
+    background-size: cover;
+   
+}
+.header nav {
+    padding: 2% 8%;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+.header nav .logo{
+    font-size: 52px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 5px #fff;
+}
+.header nav ul{
+    list-style: none;
+}
+.header nav ul li .btn{
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.header nav ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.header .content h1{
+font-size: 72px;
+color: #fff;
+font-weight: 500;
+margin-bottom: 30px;
+}
+.header .content p{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.header .content{
+    width: 60%;
+   padding-top:150px;
+    margin: auto;
+}
+.header nav ul li a{
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff !important;
+}
+.section{
+    padding:50px 0;
+}
+.heading h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.section .container{
+    width: 80%;
+    margin: auto;
+}
+.section .container p{
+    font-size: 22px;
+   color: #777;
+  
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+   
+}
+.img-grid{
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:30px ;
+}
+.img-box img{
+    width: 100%;
+    height: 18rem;
+}
+.img-box h3{
+    margin: 20px 0;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+
+    font-weight: 400;
+    color: #000;
+}
+.img-box p{
+    text-align: left !important;
+    font-size: 26px;
+    color: rgb(58, 154, 207) !important;
+    padding-bottom: 20px;
+}
+.img-box a{
+    display: inline-block;
+    border: 2px solid #006778;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: rgb(58, 154, 207) !important;
+
+
+    text-decoration: none;
+}
+.view{
+    display:block;
+    width: 230px;
+    border: 2px solid #006778;
+    padding:10px 60px;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(58, 154, 207) !important;
+}
+.section2 .container{
+    width: 80%;
+    margin: auto;
+}
+.section2 .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section2 .col{
+    flex-basis: 48%;
+}
+.section2 .col img{
+width: 300px;
+
+}
+.section2 .col h2{
+    margin: 30px 0;
+    font-size:26px;
+    font-weight: 300;
+    color: #000;
+}
+.section2 .col p{
+    text-align: left;
+    font-size:22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #777;
+    font-weight: 300;
+    
+}
+.section2 .col form{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    background-color: #0b4968;
+}
+.section2 .col form h1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 34px;
+}
+label,input,textarea{
+   width: 100%;
+}
+label{
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+@media (max-width:768px){
+    .header .content{
+        padding-top: 100px;
+    }
+    .section2 .col form{
+        padding: 30px;
+    }
+    .header .content h1{
+        font-size: 36px;
+
+    }
+    .section2 .col{
+        flex-basis: 98%;
+        margin: 0;
+        padding-right:10px !important;
+    }
+    .header .content p{
+        font-size: 18px;
+        
+    }
+    .col{
+        flex-basis: 100% !important;
+    }
+    
+}
+input,textarea{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.contact-us{
+    display: inline-block;
+    padding: 10px 80px !important;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 20px;
+    border: 2px solid #fff !important; 
+}
+.section2 .col a{
+    display: inline-block;
+    padding: 10px 50px;
+    color: #006778;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 20px;
+    border: 2px solid #006778;
+}
+.col1{
+    padding: 40px 0  60px;
+}
+.copy{
+    padding-top:80px !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+
+    color: #ddd;
+
+}
+#close1{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 30px;
+    display: none;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+#close1 i{
+    line-height: 30px;
+    font-size: 22px;
+}
